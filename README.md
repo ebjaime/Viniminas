@@ -11,7 +11,7 @@ The `numBombas` variable corresponds to the number of bombs you might find in th
 
 DO NOT HAVE MORE BOMBS THAN CELLS, OR THE PROGRAM WILL CRASH.
 
-To run game, open the [viniminas.html](../vini_main/viniminas.html), indside the [vinimain](../vinimain) directory in your browser of preference.
+To run game, open the [viniminas.html](../../vini_main/viniminas.html), indside the [vinimain](../../vinimain) directory in your browser of preference.
 
 
 Jaime Enriquez, 2019.
