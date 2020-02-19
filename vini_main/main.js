@@ -11,7 +11,7 @@ let numCajas = col*row;
 let bombas = [];
 let numBombas = 30; //30
 let modo = 0; //1-> banderas; 0->sin banderas
-let pais=1; //0 -> brasil; 1 -> francia ; 2 -> españa
+let pais=0; //0 -> brasil; 1 -> francia ; 2 -> españa
 let game_end = false;
 let flagged_bombs = 0;
 let bombas_puestas=0;
@@ -22,7 +22,7 @@ let caja_img;
 let loose_vini;
 let parabens;
 function preload() {
-	caja_img = loadImage('img/caja');
+	caja_img = loadImage('img/caja.jpg');
 	loose_vini = loadImage('img/parabens.jpg');
 	parabens = loadImage('img/parabens2.jpeg');
 	if( pais == 0){
@@ -136,10 +136,10 @@ function setup() {
 			}
 
 		}
-
 }
 ///////////////////////////////////////////////////////////////////
 function draw() {
+
 	background(51);
 	fill("white");
 	textSize(10);
