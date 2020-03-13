@@ -9,9 +9,7 @@ let col = 20; //columnas
 let numCajas = col*row;
 /////////////////////////////////////////////////////
 let bombas = [];
-let numBombas = 30; //30
 let modo = 0; //1-> banderas; 0->sin banderas
-let pais=0; //0 -> brasil; 1 -> francia ; 2 -> españa
 let game_end = false;
 let flagged_bombs = 0;
 let bombas_puestas=0;
@@ -22,6 +20,9 @@ let caja_img;
 let loose_vini;
 let parabens;
 function preload() {
+  if(numBombas>numCajas)
+    numBombas = numCajas / 5;
+
 	caja_img = loadImage('img/caja.jpg');
 	loose_vini = loadImage('img/parabens.jpg');
 	parabens = loadImage('img/parabens2.jpeg');
@@ -37,6 +38,10 @@ function preload() {
 		img1 = loadImage('img/lucas.png');
 		img2 = loadImage('img/bandera3.png');
 	}
+  else if(pais==3){
+    img1 = loadImage('img/mariano.png');
+		img2 = loadImage('img/bandera4.png');
+  }
 }
 /////////////////////////////////////////////////////
 function setup() {
@@ -142,23 +147,23 @@ function draw() {
 
 	background(51);
 	fill("white");
-	textSize(10);
+	textSize(14);
 	if(pais == 0)
-		text("Pais: Brasil",width-100, 10);
+		text("Pais: Brasil",width-100, 20);
 	else if(pais == 1)
-		text("Pais: Francia",width-100, 10);
+		text("Pais: Francia",width-100, 20);
 	else
-		text("Pais: Espania",width-100, 10);
+		text("Pais: Espania",width-100, 20);
 
-	text("By Jaime Enriquez", width-290, height - 10);
+	text("By Jaime Enriquez, 2019", width-290, height - 10);
 	if(numBombas < numCajas * 0.2)
-		text("Dificultad: Baja",width-290, 10);
+		text("Dificultad: Baja",width-290, 20);
 	else if(numBombas < numCajas * 0.3)
-		text("Dificultad: Media",width-290, 10);
+		text("Dificultad: Media",width-290, 20);
 	else if(numBombas < numCajas * 0.4)
-		text("Dificultad: Alta",width-290, 10);
+		text("Dificultad: Alta",width-290, 20);
 	else if(numBombas == numCajas - 1)
-		text("Dificultad: Loco",width-290, 10);
+		text("Dificultad: Loco",width-290, 20);
 
 	if(!game_end){
 		fill("white");

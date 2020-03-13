@@ -15,4 +15,3 @@ To run game, open the [viniminas.html](../../tree/master/vini_main/viniminas.htm
 
 
 Jaime Enriquez, 2019.
-
