@@ -15,6 +15,11 @@
              ---`-'               ---`-'                   ---`-'              `--`---'                 
                                                                                                          
 ```
+
+
+![Image Description](https://github.com/ebjaime/Viniminas/blob/capturas/vini_main/img/capt.png)
+
+
 Made thanks to Processing's [p5.js](https://p5js.org/), based in Javascript. Its files are included in the repository for easier access to the game. No extra download is necessary.
 You might choose the number of cells in the game (`main.js`) and the number of bombs (`config.js`). It is recommended for the user to have the same number of columns and rows, or the program might give you some problems.
 
