@@ -33,6 +33,7 @@ The `numBombas` variable in config.js corresponds to the number of bombs you wil
 
 To run game, open the [viniminas.html](../../tree/master/vini_main/viniminas.html), indside the [vini_main](../../tree/master/vini_main) directory in your browser of preference.
 
-## @author
+## Author
+@ebjaime
 Jaime Enriquez, 2019. :bomb:
 
