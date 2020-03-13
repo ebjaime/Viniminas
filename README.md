@@ -1,5 +1,20 @@
-# Viniminas
-
+:bomb::boom::brazil::boom::bomb:
+```                                                                                       
+                                                    ____                                                
+       ,---.  ,--,                 ,--,           ,'  , `.  ,--,                                        
+      /__./|,--.'|         ,---, ,--.'|        ,-+-,.' _ |,--.'|         ,---,                          
+ ,---.;  ; ||  |,      ,-+-. /  ||  |,      ,-+-. ;   , |||  |,      ,-+-. /  |              .--.--.    
+/___/ \  | |`--'_     ,--.'|'   |`--'_     ,--.'|'   |  ||`--'_     ,--.'|'   |  ,--.--.    /  /    '   
+\   ;  \ ' |,' ,'|   |   |  ,"' |,' ,'|   |   |  ,', |  |,,' ,'|   |   |  ,"' | /       \  |  :  /`./   
+ \   \  \: |'  | |   |   | /  | |'  | |   |   | /  | |--' '  | |   |   | /  | |.--.  .-. | |  :  ;_     
+  ;   \  ' .|  | :   |   | |  | ||  | :   |   : |  | ,    |  | :   |   | |  | | \__\/: . .  \  \    `.  
+   \   \   ''  : |__ |   | |  |/ '  : |__ |   : |  |/     '  : |__ |   | |  |/  ," .--.; |   `----.   \ 
+    \   `  ;|  | '.'||   | |--'  |  | '.'||   | |`-'      |  | '.'||   | |--'  /  /  ,.  |  /  /`--'  / 
+     :   \ |;  :    ;|   |/      ;  :    ;|   ;/          ;  :    ;|   |/     ;  :   .'   \'--'.     /  
+      '---" |  ,   / '---'       |  ,   / '---'           |  ,   / '---'      |  ,     .-./  `--'---'   
+             ---`-'               ---`-'                   ---`-'              `--`---'                 
+                                                                                                         
+```
 Made thanks to Processing's [p5.js](https://p5js.org/), based in Javascript. Its files are included in the repository for easier access to the game. No extra download is necessary.
 You might choose the number of cells in the game and the number of bombs. It is recommended for the user to have the same number of columns and rows, or the program might give you some problems.
 
@@ -9,9 +24,12 @@ Difficulty depends on the number of bombs the user chooses to have.
 The `col` and `row` variables, at the start of the main.js file correspond to the number of rows and columns the game is going to have.
 The `numBombas` variable corresponds to the number of bombs you might find in the game.
 
-DO NOT HAVE MORE BOMBS THAN CELLS, OR THE PROGRAM WILL CRASH.
+**DO NOT HAVE MORE BOMBS THAN CELLS, OR THE PROGRAM WILL CRASH.**
+
+## Usage
 
 To run game, open the [viniminas.html](../../tree/master/vini_main/viniminas.html), indside the [vini_main](../../tree/master/vini_main) directory in your browser of preference.
 
+## @author
+Jaime Enriquez, 2019. :bomb:
 
-Jaime Enriquez, 2019.
